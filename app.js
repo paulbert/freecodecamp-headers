@@ -2,11 +2,6 @@ var	express = require('express'),
 	app = express(),
 	uaParser = require('ua-parser2')(),
 	langParser = require('accept-language-parser');
-	//requestLanguage = require('express-request-language');
-	
-/*app.use(requestLanguage({
-	languages:['zh-CN']
-}));*/
 
 app.set('port',process.env.PORT || 3000);
 	
